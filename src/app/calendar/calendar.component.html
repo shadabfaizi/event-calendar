@@ -8,7 +8,7 @@
     [header]="headerObject"
     [buttonText]="{ today: 'Today', week: 'Week', day: 'Day' , month : 'Month' }"
     [height]="'parent'"
-    [events]="'/api/events.json'"
+    [events]="'/assets/mock/events.json'"
     (eventRender)="eventDataTransform($event)"
   >
   </full-calendar>
