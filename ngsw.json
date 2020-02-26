@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1582739442897,
+  "index": "https://shadabfaizi.github.io/event-calendar/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://shadabfaizi.github.io/event-calendar/favicon.ico",
+        "https://shadabfaizi.github.io/event-calendar/index.html",
+        "https://shadabfaizi.github.io/event-calendar/main-es2015.c14975c1e8d48ebe6d85.js",
+        "https://shadabfaizi.github.io/event-calendar/main-es5.c14975c1e8d48ebe6d85.js",
+        "https://shadabfaizi.github.io/event-calendar/manifest.webmanifest",
+        "https://shadabfaizi.github.io/event-calendar/polyfills-es2015.442fa3cc45520cc0d518.js",
+        "https://shadabfaizi.github.io/event-calendar/polyfills-es5.abdd41dcd206a6689f72.js",
+        "https://shadabfaizi.github.io/event-calendar/runtime-es2015.0811dcefd377500b5b1a.js",
+        "https://shadabfaizi.github.io/event-calendar/runtime-es5.0811dcefd377500b5b1a.js",
+        "https://shadabfaizi.github.io/event-calendar/styles.f1486844b861a3b6309c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-128x128.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-144x144.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-152x152.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-192x192.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-384x384.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-512x512.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-72x72.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-96x96.png",
+        "https://shadabfaizi.github.io/event-calendar/assets/mock/events.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://shadabfaizi.github.io/event-calendar/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://shadabfaizi.github.io/event-calendar/assets/mock/events.json": "0c032ce4b4eade925f6a893ace9a1dafe25e263a",
+    "https://shadabfaizi.github.io/event-calendar/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://shadabfaizi.github.io/event-calendar/index.html": "7e93cbf691dfd6f2f781d720756ae2aa30e4dd14",
+    "https://shadabfaizi.github.io/event-calendar/main-es2015.c14975c1e8d48ebe6d85.js": "780546ceb5823a5b4181c31347e6f8bcc48c43e4",
+    "https://shadabfaizi.github.io/event-calendar/main-es5.c14975c1e8d48ebe6d85.js": "a209281d039d71d9e961406703e828b2ceb130c8",
+    "https://shadabfaizi.github.io/event-calendar/manifest.webmanifest": "8a1f7b0912af5c3f988793729671946a8ec75c8a",
+    "https://shadabfaizi.github.io/event-calendar/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "https://shadabfaizi.github.io/event-calendar/polyfills-es5.abdd41dcd206a6689f72.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
+    "https://shadabfaizi.github.io/event-calendar/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://shadabfaizi.github.io/event-calendar/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://shadabfaizi.github.io/event-calendar/styles.f1486844b861a3b6309c.css": "1092e109a7f2f05d35fb064f1e92e4f4f8bdb643"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
