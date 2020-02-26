@@ -15,12 +15,15 @@ import { MatListModule } from '@angular/material/list';
 import {MatMenuModule} from '@angular/material/menu';
 import { HomeComponent } from './home/home.component';
 import {MatCardModule} from '@angular/material/card';
+import { CalendarComponent } from './calendar/calendar.component';
+import { FullCalendarModule } from '@fullcalendar/angular';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import {MatCardModule} from '@angular/material/card';
     MatListModule,
     MatMenuModule,
     FlexLayoutModule,
-    MatCardModule
+    MatCardModule,
+    FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

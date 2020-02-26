@@ -1,0 +1,15 @@
+<!-- <div class="mat-h1 heading">Calendar</div> -->
+
+<div class="calendar-container">
+  <full-calendar
+    defaultView="dayGridWeek"
+    [plugins]="calendarPlugins"
+    [weekends]="false"
+    [header]="headerObject"
+    [buttonText]="{ today: 'Today', week: 'Week', day: 'Day' , month : 'Month' }"
+    [height]="'parent'"
+    [events]="'/api/events.json'"
+    (eventRender)="eventDataTransform($event)"
+  >
+  </full-calendar>
+</div>

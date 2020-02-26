@@ -33,7 +33,15 @@ button.mat-h1 mat-icon {
   display: inline-flex;
 }
 
-.settings {
+.settings,
+.calendar {
   flex: 0 1 10em;
   font-size: 1.2em;
+}
+
+.page-content {
+  width: 100%;
+  height: calc(100% - 64px);
+  padding: 2em;
+  box-sizing: border-box;
 }

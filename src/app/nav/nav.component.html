@@ -10,7 +10,10 @@
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item href="#"><mat-icon class="home">home</mat-icon></a>
-      <button mat-button [matMenuTriggerFor]="settings" class="settings">
+      <button mat-menu-item (click)="openCalendar('DAY')">Day view</button>
+      <button mat-menu-item (click)="openCalendar('WEEK')">Week view</button>
+      <button mat-menu-item (click)="openCalendar('MONTH')">Month view</button>
+      <button mat-button [matMenuTriggerFor]="settings">
         Settings
       </button>
       <mat-menu #settings="matMenu" yPosition="below">
@@ -31,13 +34,20 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <h1 fxFlex.gt-xs="0 1 12em" ngClass.gt-xs="mat-display-1">
-        Event Calendar
+        Scheduling App
       </h1>
       <div fxHide.lt-sm="true" fxFlex="0 1 100%">
         <div fxFlex="0 1 100%"></div>
         <div style="display:flex">
-          <button mat-button class="mat-h1">
+          <button mat-button class="mat-h1" [routerLink]="['/']">
             <mat-icon class="home">home</mat-icon>
+          </button>
+          <button
+            mat-button
+            class="mat-h1 calendar"
+            [routerLink]="['calendar']"
+          >
+            Calendar
           </button>
           <div class="fx-spacer"></div>
           <button mat-button [matMenuTriggerFor]="settings" class="settings">
@@ -47,15 +57,22 @@
             <button mat-menu-item>Setting 1</button>
             <button mat-menu-item>Setting 2</button>
           </mat-menu>
-          <button mat-button class="mat-h1" title="User Name" [matMenuTriggerFor]="accounts">
-              <mat-icon>account_circle</mat-icon>
+          <button
+            mat-button
+            class="mat-h1"
+            title="User Name"
+            [matMenuTriggerFor]="accounts"
+          >
+            <mat-icon>account_circle</mat-icon>
           </button>
           <mat-menu #accounts="matMenu" yPosition="below">
-              <button mat-menu-item>Log out</button>
-            </mat-menu>
+            <button mat-menu-item>Log out</button>
+          </mat-menu>
         </div>
       </div>
     </mat-toolbar>
-    <router-outlet></router-outlet>
+    <div class="page-content">
+      <router-outlet></router-outlet>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

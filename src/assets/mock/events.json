@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2020-02-25",
+    "title": "Event1",
+    "startTime" : "",
+    "endTime" : "",
+    "businessStartTime" : "",
+    "room": { "id": "1", "name": "109" , "location" : {"id": "1", "name": "Brampton OCJ"} },
+    "official" : {},
+    "agenda" : []
+  },
+  {
+    "date": "2020-02-26",
+    "title": "Event1",
+    "startTime" : "",
+    "endTime" : "",
+    "businessStartTime" : "",
+    "room": { "id": "1", "name": "109" , "location" : {"id": "1", "name": "Brampton OCJ"} },
+    "official" : {},
+    "agenda" : []
+  },
+  {
+    "date": "2020-02-27",
+    "title": "Event1",
+    "startTime" : "",
+    "endTime" : "",
+    "businessStartTime" : "",
+    "room": { "id": "1", "name": "109" , "location" : {"id": "1", "name": "Brampton OCJ"} },
+    "official" : {},
+    "agenda" : []
+  },
+  {
+    "date": "2020-02-28",
+    "title": "Event1",
+    "startTime" : "",
+    "endTime" : "",
+    "businessStartTime" : "",
+    "room": { "id": "1", "name": "109" , "location" : {"id": "1", "name": "Brampton OCJ"} },
+    "official" : {},
+    "agenda" : []
+  },
+  {
+    "date": "2020-02-24",
+    "title": "Event1",
+    "startTime" : "",
+    "endTime" : "",
+    "businessStartTime" : "",
+    "room": { "id": "1", "name": "109" , "location" : {"id": "1", "name": "Brampton OCJ"} },
+    "official" : {},
+    "agenda" : []
+  }
+]
